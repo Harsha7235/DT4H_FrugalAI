@@ -415,13 +415,258 @@ The final version will extend this project with:
 
 ---
 
-## Author
+# 🏥 Autonomous Digital Twin for Personalized Healthcare using Frugal AI and Intelligent Decision System
 
-Pittu.Harsha Vardhan Reddy
+### CPS Semester Project | Amrita Vishwa Vidyapeetham
 
-B.Tech Artificial Intelligence and Data Science
-Specialization: Cyber Physical Systems and Security
+---
 
+## 📌 Project Overview
+
+This project presents an **Autonomous Digital Twin for Healthcare**, designed as a **Cyber Physical System (CPS)** that continuously monitors patient health parameters, creates a virtual patient model (Digital Twin), predicts health risks using Frugal AI, and provides intelligent healthcare recommendations.
+
+The system integrates:
+
+- MATLAB/Simulink based patient simulation
+- Digital Twin Modeling
+- Machine Learning based Risk Prediction
+- Intelligent Decision Support System
+- Real-Time Health Monitoring Framework
+- Frugal AI for resource-efficient healthcare analytics
+
+The primary objective is to demonstrate how Digital Twin Technology can transform healthcare from a reactive model into a predictive and personalized system.
+
+---
+
+## 🎯 Problem Statement
+
+Traditional healthcare systems depend on periodic checkups and retrospective diagnosis.
+
+This project aims to build a healthcare Cyber Physical System capable of:
+
+- Continuous patient monitoring
+- Real-time risk assessment
+- Personalized healthcare recommendations
+- Virtual patient simulation
+- Intelligent decision support
+
+using Digital Twin Technology and Frugal AI.
+
+---
+
+## 🏗 System Architecture
+
+```text
+Physical Patient
+        │
+        ▼
+Sensor Inputs
+(Heart Rate, BP, Glucose, BMI)
+        │
+        ▼
+MATLAB / Simulink Model
+        │
+        ▼
+Digital Twin Engine
+        │
+        ▼
+Risk Prediction Module
+        │
+        ▼
+Frugal AI Decision System
+        │
+        ▼
+Healthcare Recommendations
+        │
+        ▼
+Dashboard Visualization
+
+
+⚙️ Simulink Implementation
+The healthcare system is modeled using MATLAB/Simulink as a Cyber Physical System.
+1. Physiological Data Generator
+Simulates:
+Heart Rate
+Blood Pressure
+Blood Glucose
+Oxygen Saturation
+Activity Levels
+Outputs synthetic patient health data in real time.
+2. Digital Twin Module
+Creates a virtual representation of the patient.
+Functions:
+State Estimation
+Health Synchronization
+Patient Behavior Modeling
+Continuous Updates
+The digital twin continuously evolves according to incoming health parameters.
+3. Risk Assessment Module
+Predicts risks associated with:
+Diabetes
+Hypertension
+Cardiovascular Diseases
+Risk scores are generated dynamically using machine learning models.
+4. Frugal AI Decision Engine
+Provides:
+Resource-efficient AI inference
+Personalized healthcare recommendations
+Risk mitigation strategies
+Health optimization suggestions
+Designed to minimize computational overhead while maintaining accuracy.
+5. Feedback Controller
+Implements a closed-loop healthcare monitoring mechanism.
+Features:
+Continuous monitoring
+Adaptive recommendations
+Dynamic risk updates
+Personalized intervention planning
+
+
+🤖 Frugal AI Component
+The project incorporates Frugal AI principles:
+Features
+Lightweight Neural Networks
+Reduced Computational Cost
+Efficient Memory Usage
+Fast Inference Time
+Scalable Architecture
+Benefits
+Suitable for edge devices
+Lower power consumption
+Faster decision-making
+Cost-effective deployment
+
+
+📊 Simulation Outputs
+The Simulink model generates:
+Health Risk Curve
+Displays disease risk progression over time.
+Digital Twin Synchronization
+Compares:
+Physical Patient State
+Virtual Patient State
+Intervention Impact Analysis
+Shows predicted outcomes after applying recommendations.
+Health Stability Index
+Measures patient wellness and overall health trend.
+
+
+📈 Expected Results
+Metric
+Expected Value
+Risk Prediction Accuracy
+>90%
+Twin Synchronization Accuracy
+>95%
+Decision Response Time
+<1 second
+Risk Detection Rate
+>90%
+Recommendation Accuracy
+>85%
+
+
+🔬 Research Contributions
+
+This project contributes to healthcare research by:
+Developing a Digital Twin based Healthcare CPS
+Integrating Frugal AI into healthcare decision systems
+Enabling real-time personalized healthcare monitoring
+Creating an intelligent recommendation framework
+Demonstrating predictive healthcare analytics
+
+
+🛠 Technologies Used
+MATLAB
+Simulink
+Stateflow
+Control System Toolbox
+Python
+TensorFlow
+Scikit-Learn
+NumPy
+Pandas
+Frontend
+React.js
+Material UI
+Plotly
+Deployment
+GitHub
+Vercel
+
+
+📂 Repository Structure
+Plain text
+DT4H_Project/
+
+├── backend/
+│   ├── main.py
+│   ├── twin_engine.py
+│   ├── risk_model.py
+│   ├── decision_system.py
+│   ├── train_model.py
+│   └── evaluate_model.py
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── simulink/
+│   ├── digital_twin_model.slx
+│   ├── patient_generator.slx
+│   └── risk_prediction.slx
+│
+├── data/
+│   └── synthetic_dataset.csv
+│
+├── models/
+│   └── risk_model.h5
+│
+├── results/
+│   ├── accuracy_plot.png
+│   ├── confusion_matrix.png
+│   ├── risk_curve.png
+│   └── simulation_output.png
+│
+├── docs/
+│   ├── architecture.png
+│   ├── system_design.png
+│   └── screenshots/
+│
+└── README.md
+
+
+🎓 Academic Relevance
+Relevant Domains:
+Cyber Physical Systems
+Digital Twin Technology
+Artificial Intelligence
+Smart Healthcare
+Intelligent Systems
+Frugal AI
+Personalized Medicine
+
+
+🚀 Future Scope
+Future enhancements include:
+Wearable Device Integration
+IoT Sensor Connectivity
+Real-Time ECG Monitoring
+Reinforcement Learning Based Intervention Planning
+Explainable AI Dashboard
+Federated Learning for Healthcare Privacy
+Multi-Disease Prediction
+Cloud-Based Digital Twin Deployment
+
+
+📜 License
+MIT License
+
+
+
+👨‍💻 Author
+Harsha
+B.Tech Artificial Intelligence & Data Science
+Specialization in Cyber Physical Systems and Security
 Amrita Vishwa Vidyapeetham, Coimbatore
-
-CPS Digital Twin Project – 2026
